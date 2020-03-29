@@ -1,0 +1,65 @@
+surf - simple webkit-based browser
+==================================
+surf is a simple Web browser based on WebKit/GTK+.
+
+Requirements
+------------
+In order to build surf you need GTK+ and Webkit/GTK+ header files.
+
+In order to use the functionality of the url-bar and/or search bar, also install dmenu[0].
+
+Installation
+------------
+Edit config.mk to match your local setup (surf is installed into
+the /usr/local namespace by default).
+
+Afterwards enter the following command to build and install surf (if
+necessary as root):
+
+    make clean install
+
+Running surf
+------------
+run
+	surf [URI]
+
+Functionality
+-------------
+To add tabs you may want to install tabbed[1], and run surf like this:
+
+    tabbed -c surf -e
+
+Patches
+-------
+	dlconsole[2]
+	model[2]
+	scrollmultiply[2]
+	websearch[5]
+
+Cleanup
+------
+All surf config files have been moved to ~/.config/surf
+as apposed to ~/.surf.
+
+All keybinds no longer need a CTRL, simply press the keybind.
+If you need to type into a text box, press `i` to enter insert mode,
+and press `esc` to exit. Similar behiear can befound in qutebrowser[6].
+
+See the manpage for further options.
+
+Video Support
+-------------
+In order to have robust video support, install these packages. (Arch Specific)
+	- gstreamer
+	- gst-libav
+	- gst-plugins-{base,ugly,bad,good}
+	- libde265
+
+[0] http://tools.suckless.org/dmenu
+[1] http://tools.suckless.org/tabbed
+[2] http://tools.suckless.org/surf/patches/dlconsole
+[3] http://tools.suckless.org/surf/patches/model
+[4] http://tools.suckless.org/surf/patches/scrollmultiply
+[5] http://tools.suckless.org/surf/patches/websearch
+[6] https://github.com/qutebrowser/qutebrowser
+
