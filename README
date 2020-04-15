@@ -43,7 +43,8 @@ as apposed to ~/.surf.
 
 All keybinds no longer need a CTRL, simply press the keybind.
 If you need to type into a text box, press `i` to enter insert mode,
-and press `esc` to exit. Similar behiear can befound in qutebrowser[6].
+and press `esc` to exit. Similar behiear can be found in qutebrowser[6]
+and vimb[7].
 
 See the manpage for further options.
 
@@ -62,4 +63,5 @@ In order to have robust video support, install these packages. (Arch Specific)
 [4] http://tools.suckless.org/surf/patches/scrollmultiply
 [5] http://tools.suckless.org/surf/patches/websearch
 [6] https://github.com/qutebrowser/qutebrowser
+[7] https://fanglingsu.github.io/vimb/
 
