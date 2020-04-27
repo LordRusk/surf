@@ -46,6 +46,9 @@ If you need to type into a text box, press `i` to enter insert mode,
 and press `esc` to exit. Similar behiear can be found in qutebrowser[6]
 and vimb[7].
 
+When using `y` to yank current url, it sends it to `CLIPBOARD` rather
+then `PRIMARY`.
+
 See the manpage for further options.
 
 Video Support
