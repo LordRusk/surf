@@ -41,6 +41,8 @@ Cleanup
 All surf config files have been moved to ~/.config/surf
 as apposed to ~/.surf.
 
+Surf handles the clipboard instead of primary
+
 All keybinds no longer need a CTRL, simply press the keybind.
 If you need to type into a text box, press `i` to enter insert mode,
 and press `esc` to exit. Similar behiear can be found in qutebrowser[6]
